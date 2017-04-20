@@ -44,19 +44,24 @@ Modules:
 
 Let's try some:
 
-Simple bar: https://jsfiddle.net/story645/ymc7vr98/
+Simple bar: 
+
 Let's add things:
-One bar
-Two bar
+Two bar:
 Hover:
 
-CSV: we run into the vagries (read we can't!) of trying to load a file we didn't serve,
-so instead we work locally. 
+CSV/our own large json files: we run into the vagries of trying to load a file we didn't serve, basically we can't because of prohibiitions on cross site scripting. Instead we work locally. We use command line to navigate to the directory that has the data and code files and start a server:
 
-We use command line to navigate to the directory that has the data and code files and start a server:
 ```bash
 python –m http.server
 ``` 
+Install python if it doesn't work, as http.server is part of the Python standard library. 
+
+Then open your .html page (let's call it index.html) by navigating to `http://localhost:8000/index.html`. If you try to open the file without serving it, you'll just get the raw html rather than the site it generates)
+
+
+Use a browser that supports dev tools-which is all of them. Firefox provides a particularly good environment: https://www.mozilla.org/en-US/firefox/developer/
+
 
 Resources:
 
@@ -67,8 +72,9 @@ Mick Bostock (creator of D3):
 + https://github.com/d3/d3/wiki/Tutorials
 + https://bost.ocks.org/mike/d3/workshop/#0
 
-David Leonard - HTML/CSS/JS to D3: http://slides.com/drksephy/deck-8#/47
+Other 
++ David Leonard [HTML/CSS/JS to D3](http://slides.com/drksephy/deck-8#/47)
++ [Setting Up a Simple D3 Development Environment](https://www.packtpub.com/mapt/book/web-development/9781782162162/1/ch01lvl1sec09/setting-up-a-simple-d3-development-environment)
++ [Mostly Non-STEM Guide to Data](https://digitalfellows.commons.gc.cuny.edu/2017/02/22/the-mostly-non-stem-guide-to-data-literacy/)
++ [Learn Command Line The Hardway](https://learnpythonthehardway.org/book/appendixa.html) - don't use the Python book!
 
-https://www.packtpub.com/mapt/book/web-development/9781782162162/1/ch01lvl1sec09/setting-up-a-simple-d3-development-environment
-
-What are scales and the like? https://digitalfellows.commons.gc.cuny.edu/2017/02/22/the-mostly-non-stem-guide-to-data-literacy/
