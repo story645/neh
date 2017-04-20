@@ -25,7 +25,7 @@ JS - Behavior - Interactivity/Responsiveness
 
 With respect to D3?
 
-HTML - anchors the graph in the  page
+HTML - can be used to anchor the graph in the  page
 CSS - style the graph - aesthetics like color and fill
 JS - declare the type of graph and attach elemnts to data
 
@@ -36,19 +36,34 @@ Interaction:
 
 Modules:
  * shapes - d3.svg, bound to the d attribute of the svg path
- * scales - visually encode data - oridinal and quantative 
+ * scales - map data from data space to pixel/axes space
  * layouts - visualization techniques via abstract data structures such as charts and trees
  * behaviors - reusable interaction techniques such as zoom, filtering, etc
  * geo & geom - utilities for projecting data and working with it in pixel space
  * data processing utilites 
+
+Let's try some:
+
+Simple bar: https://jsfiddle.net/story645/xhzzy99p/#&togetherjs=MoUbnPpA5R
+CSV bar: we run into the vagries (read we can't!) of trying to load a file we didn't serve,
+so instead we work locally.
+
+`python –m http.server` 
+
+
 
 
 Resources:
 
 [1] [D3: Data-Driven Documents](http://vis.stanford.edu/files/2011-D3-InfoVis.pdf)
 [2] [Declarative Language Design for Interactive Visualization](http://vis.stanford.edu/files/2010-Protovis-InfoVis.pdf) 
-Slides:
 
-Mick Bostock (creator of D3): https://bost.ocks.org/mike/d3/workshop/#0
+Mick Bostock (creator of D3):
++ https://github.com/d3/d3/wiki/Tutorials
++ https://bost.ocks.org/mike/d3/workshop/#0
+
 David Leonard - HTML/CSS/JS to D3: http://slides.com/drksephy/deck-8#/47
 
+https://www.packtpub.com/mapt/book/web-development/9781782162162/1/ch01lvl1sec09/setting-up-a-simple-d3-development-environment
+
+What are scales and the like? https://digitalfellows.commons.gc.cuny.edu/2017/02/22/the-mostly-non-stem-guide-to-data-literacy/
