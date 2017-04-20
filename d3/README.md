@@ -44,11 +44,10 @@ Modules:
 
 Let's try some:
 
-Simple bar: 
+Simple bar: https://jsfiddle.net/story645/ymc7vr98/
 
-Let's add things:
-Two bar:
-Hover:
+Working with data:
+https://bl.ocks.org/larsenmtl/e3b8b7c2ca4787f77d78f58d41c3da91
 
 CSV/our own large json files: we run into the vagries of trying to load a file we didn't serve, basically we can't because of prohibiitions on cross site scripting. Instead we work locally. We use command line to navigate to the directory that has the data and code files and start a server:
 
