@@ -66,6 +66,7 @@ Use a browser that supports dev tools-which is all of them. Firefox provides a p
 Resources:
 
 [1] [D3: Data-Driven Documents](http://vis.stanford.edu/files/2011-D3-InfoVis.pdf)
+
 [2] [Declarative Language Design for Interactive Visualization](http://vis.stanford.edu/files/2010-Protovis-InfoVis.pdf) 
 
 Mick Bostock (creator of D3):
