@@ -24,10 +24,9 @@ CSS - Styling - Presentation/Appearance
 JS - Behavior - Interactivity/Responsiveness
 
 With respect to D3?
-
-HTML - can be used to anchor the graph in the  page
-CSS - style the graph - aesthetics like color and fill
-JS - declare the type of graph and attach elemnts to data
++ HTML - can be used to anchor the graph in the  page
++ CSS - style the graph - aesthetics like color and fill
++ JS - declare the type of graph and attach elemnts to data
 
 ![d3](/figs/d3.png)
 
