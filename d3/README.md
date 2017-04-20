@@ -44,14 +44,19 @@ Modules:
 
 Let's try some:
 
-Simple bar: https://jsfiddle.net/story645/xhzzy99p/#&togetherjs=MoUbnPpA5R
-CSV bar: we run into the vagries (read we can't!) of trying to load a file we didn't serve,
-so instead we work locally.
+Simple bar: https://jsfiddle.net/story645/ymc7vr98/
+Let's add things:
+One bar
+Two bar
+Hover:
 
-`python –m http.server` 
+CSV: we run into the vagries (read we can't!) of trying to load a file we didn't serve,
+so instead we work locally. 
 
-
-
+We use command line to navigate to the directory that has the data and code files and start a server:
+```bash
+python –m http.server
+``` 
 
 Resources:
 
